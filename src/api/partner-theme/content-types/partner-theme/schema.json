@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "partner_themes",
+  "info": {
+    "singularName": "partner-theme",
+    "pluralName": "partner-themes",
+    "displayName": "Partner Theme"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
